@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="weather-chen-erd" name="ERD Pogodynka">
+    <mxGraphModel dx="2438" dy="1371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2460" pageHeight="1260" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e_city_city_id" edge="1" parent="1" source="city" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="city_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_city_city_name" edge="1" parent="1" source="city" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0;exitY=0.19;entryX=1;entryY=0.65;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="city_name">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_city_city_country" edge="1" parent="1" source="city" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0;exitY=0.48;entryX=1;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="city_country">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_city_city_lat" edge="1" parent="1" source="city" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0;exitY=0.81;entryX=1;entryY=0.36;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="city_lat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_city_city_lon" edge="1" parent="1" source="city" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.51;exitY=1;entryX=0.52;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="city_lon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_id" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.31;exitY=0;entryX=0.54;entryY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_id">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_temp" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.75;exitY=0;entryX=0.11;entryY=0.93;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_temp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_humidity" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.89;exitY=0.06;entryX=0.12;entryY=0.91;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_humidity">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_pressure" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=1;exitY=0.17;entryX=0.08;entryY=0.82;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_pressure">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_wind" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=1;exitY=0.39;entryX=0.06;entryY=0.67;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_wind">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_wind_direction" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=1;exitY=0.66;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_wind_direction">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_clouds" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=1;exitY=0.88;entryX=0.05;entryY=0.31;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_clouds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_rain" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.79;exitY=1;entryX=0.18;entryY=0.15;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_rain">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_date" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.52;exitY=1;entryX=0.47;entryY=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_date">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_weather_weather_fk" edge="1" parent="1" source="weather" style="edgeStyle=none;rounded=0;html=1;strokeWidth=1.7;endArrow=none;startArrow=none;exitX=0.15;exitY=1;entryX=0.7;entryY=0.03;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fillColor=none;" target="weather_fk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="city" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=24;" value="Miejscowosc" vertex="1">
+          <mxGeometry height="110" width="300" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="weather" parent="1" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=24;" value="PomiarMeteorologiczny" vertex="1">
+          <mxGeometry height="110" width="360" x="1480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rel" parent="1" style="rhombus;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=22;" value="posiada pomiary" vertex="1">
+          <mxGeometry height="140" width="280" x="1050" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="city_id" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;INT &lt;b&gt;[PK]&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="210" x="520" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="city_name" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;nazwa&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;VARCHAR(150)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="85" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="city_country" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;kraj&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;VARCHAR(100)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="85" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="city_lat" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;szerokosc_geo&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(9,6)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="100" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="city_lon" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;dlugosc_geo&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(9,6)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="485" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_id" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;&lt;u&gt;&lt;b&gt;id&lt;/b&gt;&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;INT &lt;b&gt;[PK]&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="210" x="1480" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_temp" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;temperatura_c&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(5,2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="210" x="1800" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_humidity" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;wilgotnosc_proc&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(5,2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="1900" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_pressure" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;cisnienie_hpa&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(7,2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="1955" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_wind" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;predkosc_wiatru_ms&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(6,2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="235" x="1985" y="497" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_wind_direction" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;kierunek_wiatru_st&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;INT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="235" x="1985" y="622" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_clouds" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;zachmurzenie_proc&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;INT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="235" x="1940" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_rain" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;opady_mm&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DECIMAL(7,2)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="1795" y="905" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_date" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;data_pomiaru&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;DATETIME&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="1535" y="1068" as="geometry" />
+        </mxCell>
+        <mxCell id="weather_fk" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;strokeWidth=1.7;fontFamily=Arial;align=center;verticalAlign=middle;spacing=3;fontSize=20;" value="&lt;div style=&quot;line-height:1.15&quot;&gt;miejscowosc_id&lt;/div&gt;&lt;div style=&quot;font-size:17px;line-height:1.15&quot;&gt;INT &lt;b&gt;[FK]&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" x="1330" y="964" as="geometry" />
+        </mxCell>
+        <mxCell id="CsYErWiog0wFX6rqPnRc-1" edge="1" parent="1" source="rel" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=none;" target="weather" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1180" y="860" as="sourcePoint" />
+            <mxPoint x="1280" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsYErWiog0wFX6rqPnRc-2" edge="1" parent="1" source="rel" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;rounded=0;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=none;" target="city" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="940" y="880" as="sourcePoint" />
+            <mxPoint x="1040" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
